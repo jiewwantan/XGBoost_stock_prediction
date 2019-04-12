@@ -40,3 +40,14 @@ XGBoost is known to be fast and achieve good prediction results as compared to t
 
 ## Improvement suggestion
 Before arriving at XGboostCV, GridsearchCV (all hyperparameters tuning at once) and XGboosting (one hyperparameter tuning at a time) were tried. The former took a long time to train and achieve lacklustre result (below 0.7 accuracy), the latter performs much faster but is seriously overtrained. Even if the current result doesn't overfit, the performance ~ 0.7 test accuracy is lacklustre, given the number of features to learn from. I suspect this can be due to autocorrelation and autoregressive nature of the time series data and that slicing the data at the wrong place diconnects its learnability. It may be necessary to combine with other models, such as econometric model and other non-linear model to learn well from time-series stock data.
+
+## Instructions
+To execute the program, under command prompt, run : 
+python P5.py
+
+## Prerequisites
+Python 3.6 or Anaconda with Python 3.6 environment
+
+The code is written in a Windows machine and has been tested on three operating systems: 
+Linux Ubuntu 16.04 & Windows 10 Pro
+
