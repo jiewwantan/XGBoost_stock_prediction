@@ -11,13 +11,14 @@ XGBoost is known to be fast and achieve good prediction results as compared to t
 [image2]: https://github.com/jiewwantan/XGBoost_stock_prediction/blob/master/plot_corr_heatmap.png "Feature data correlation heatmap"
 ![Feature data correlation heatmap][image2]
 
-### The importance of each feature data according to the Feature Selection algorithm
-[image3]: https://github.com/jiewwantan/XGBoost_stock_prediction/blob/master/plot_importance.png "Feature data importance"
-![Feature data importance][image3]
-
 ### The correlation of the feature data between each other after feature selection
+
 [image4]: https://github.com/jiewwantan/XGBoost_stock_prediction/blob/master/plot_corr_heatmap_fs.png "Selected Feature data correlation heatmap"
 ![Selected Feature data correlation heatmap][image4]
+
+### The importance of each selected feature data according to the Feature Selection algorithm
+[image3]: https://github.com/jiewwantan/XGBoost_stock_prediction/blob/master/plot_importance.png "Feature data importance"
+![Feature data importance][image3]
 
 ## Results
 
