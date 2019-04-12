@@ -34,6 +34,7 @@ XGBoost is known to be fast and achieve good prediction results as compared to t
 [image7]: https://github.com/jiewwantan/XGBoost_stock_prediction/blob/master/boosting_result.png "Testing on XGBoost Model"
 ![Testing on XGBoost Model][image7]
 
+### The XGBoost Classification Tree
 [image8]: https://github.com/jiewwantan/XGBoost_stock_prediction/blob/master/tree.png "The XGBoost Tree"
 ![The XGBoost Tree][image8]
 
