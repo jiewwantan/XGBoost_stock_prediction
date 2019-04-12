@@ -29,5 +29,12 @@ XGBoost is known to be fast and achieve good prediction results as compared to t
 [image6]: https://github.com/jiewwantan/XGBoost_stock_prediction/blob/master/training_logloss.png "Training Loss"
 ![Training Loss][image6]
 
+### Model Testing
+[image7]: https://github.com/jiewwantan/XGBoost_stock_prediction/blob/master/boosting_result.png "Testing on XGBoost Model"
+![Testing on XGBoost Model][image7]
+
+[image8]: https://github.com/jiewwantan/XGBoost_stock_prediction/blob/master/tree.png "The XGBoost Tree"
+![The XGBoost Tree][image8]
+
 ## Improvement suggestion
 Before arriving at XGboostCV, GridsearchCV (all hyperparameters tuning at once) and XGboosting (one hyperparameter tuning at a time) were tried. The former took a long time to train and achieve lacklustre result (below 0.7 accuracy), the latter performs much faster but is seriously overtrained. Even if the current result doesn't overfit, the performance ~ 0.7 test accuracy is lacklustre, given the number of features to learn from. I suspect this can be due to autocorrelation and autoregressive nature of the time series data and that slicing the data at the wrong place diconnects its learnability. It may be necessary to combine with other models, such as econometric model and other non-linear model to learn well from time-series stock data.
